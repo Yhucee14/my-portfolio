@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gray_gradient {
+  @apply bg-gradient-to-r from-leftGray to-rightGray ;
+}
+
+.blue_gradient {
+  @apply bg-gradient-to-r from-leftBlue to-rightBlue ;
+}
+
+.orange_gradient {
+  @apply bg-gradient-to-r from-leftOrange to-rightOrange ;
+}
