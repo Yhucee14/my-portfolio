@@ -1,7 +1,7 @@
-import Layout from '@/components/layout'
+import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/developer-pic-1.png';
+import profilePic from '../../public/images/profile/uc.jpg';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icon';
@@ -17,10 +17,10 @@ export default function Home() {
       <main className='flex items-center text-black w-full'>
         <Layout className='pt-3 '>
           <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2'>
-              <Image src={profilePic} alt='img' className='w-full h-auto' />
+            <div className='w-1/2 h-max rounded-2xl border-2 border-solid border-black bg-green p-2'>
+              <Image src={profilePic} alt='img' className='w-full h-auto rounded-2xl' />
             </div>
-            <div className='w-1/2 flex flex-col items-center self-center'>
+            <div className='w-1/2 px-5 flex flex-col items-center self-center'>
               <AnimatedText text="Writing Lines That Transform Lives." className='!text-4xl !text-left'/>
               <p className='my-4 text-base font-medium'>
                 As a skilled Front-End Web developer, I am dedicated to turning ideas into innovative web applications.
