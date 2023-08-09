@@ -30,7 +30,7 @@ const Experience = () => {
                                 <div key={exp}>
                                     <h3 className='capitalize font-bold text-2xl'>
                                         {exp.position}&nbsp;
-                                        <a href={exp.companyLink} target='_blank' className='text-rightOrange capitalize'>@{exp.company}</a>
+                                        <a href={exp.companyLink} target='_blank' className='text-rightBlue capitalize'>@{exp.company}</a>
                                     </h3>
                                     <span className='capitalize font-medium text-black/75'>
                                         {exp.time} | {exp.address}

@@ -21,7 +21,7 @@ export default function Home() {
               <Image src={profilePic} alt='img' className='w-full h-auto rounded-2xl' />
             </div>
             <div className='w-1/2 px-5 flex flex-col items-center self-center'>
-              <AnimatedText text="Writing Lines That Transform Lives." className='!text-4xl !text-left'/>
+              <AnimatedText text="Hello, I am Uche." className='!text-4xl !text-left'/>
               <p className='my-4 text-base font-medium'>
                 As a skilled Front-End Web developer, I am dedicated to turning ideas into innovative web applications.
                 Explore my latest projects showcasing my abilities in React.js and web development.

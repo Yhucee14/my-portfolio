@@ -85,7 +85,7 @@ const about = () => {
 
                             <div className='col-span-2 flex flex-col items-center justify-between pt-20'>
                                 <span className='inline-block text-4xl font-bold'>
-                                <AnimatedNumbers value={10}/>+
+                                <AnimatedNumbers value={4}/>+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-black/75'>Projects Completed</h2>
                             </div>
