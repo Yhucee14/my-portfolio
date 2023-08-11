@@ -1,7 +1,9 @@
-import smartsum from '/Users/HP/Next.js-portfolio/public/images/projects/smartsum.png'
-import weather from '/Users/HP/Next.js-portfolio/public/images/projects/weather.png'
-import auth from '/Users/HP/Next.js-portfolio/public/images/projects/auth.png'
-import todo from '/Users/HP/Next.js-portfolio/public/images/projects/todo.png'
+
+import weather from '../../pages/profile/weather.png'
+import smartsum from '../../pages/profile//smartsum.png'
+import auth from '../../pages/profile//auth.png'
+import todo from '../../pages/profile//todo.png'
+
 
 export const ExpDetails = [
     {

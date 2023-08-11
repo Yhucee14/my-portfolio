@@ -27,7 +27,7 @@ const projects = () => {
 
                         {FeaturedProjects.map((pro) => (
                             <motion.article
-                                initial={{ y: 100 }}
+                                initial={{ y: 50 }}
                                 whileInView={{ y: 0, transition: { duration: 1.2, ease: 'easeInOut', staggerChildren: 0.08, } }}
 
                                 key={pro} className=' border border-solid p-5 border-black shadow-2xl rounded-3xl  w-full flex items-center justify-between  '>
