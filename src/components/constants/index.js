@@ -99,7 +99,7 @@ export const ExpDetails = [
     {
       id: "pro-5",
       title: "My Portfolio ",
-      summary: "Created My Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
+      summary: "Created my Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
       link: "https://my-portfolio-84lr.vercel.app/projects",
       github: "https://github.com/Yhucee14/my-portfolio",
       img: portfolio
