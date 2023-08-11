@@ -1,8 +1,8 @@
 
-import weather from '../../pages/profile/weather.png'
-import smartsum from '../../pages/profile//smartsum.png'
-import auth from '../../pages/profile//auth.png'
-import todo from '../../pages/profile//todo.png'
+import weather from '../constants/projects/weather.png'
+import smartsum from '../constants/projects/smartsum.png'
+import auth from '../constants/projects/auth.png'
+import todo from '../constants/projects/todo.png'
 
 
 export const ExpDetails = [
