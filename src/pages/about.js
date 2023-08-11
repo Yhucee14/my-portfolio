@@ -58,16 +58,16 @@ const about = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start'>
                             <h2 className='mb-4 font-bold uppercase'>About Me</h2>
                             <p className='font-medium'>
-                                Hi, I'm Uche, a web developer with a passion for creating beautiful, functional,
+                                Hi, I am Uche, a web developer with a passion for creating beautiful, functional,
                                 and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
                                 new and innovative ways to bring my clients visions to life.
                             </p>
                             <p className='my-3 font-medium'>
-                                I believe that web development is about more than just making things look pretty, it's about solving problems and
+                                I believe that web development is about more than just making things look pretty, it is about solving problems and
                                 creating intuitive, enjoyable experiences for users.
                             </p>
                             <p className='font-medium'>
-                                Whether I'm working on a website, or
+                                Whether I am working on a website, or
                                 other digital product, I bring my commitment to design excellence and user-centered thinking to
                                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
 
