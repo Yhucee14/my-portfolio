@@ -3,6 +3,7 @@ import weather from '../constants/projects/weather.png'
 import smartsum from '../constants/projects/smartsum.png'
 import auth from '../constants/projects/auth.png'
 import todo from '../constants/projects/todo.png'
+import portfolio from '../constants/projects/portfolio.png'
 
 
 export const ExpDetails = [
@@ -94,5 +95,13 @@ export const ExpDetails = [
       link: "https://todo-app-dun-three-39.vercel.app",
       github: "https://github.com/Yhucee14/Todo-App",
       img: todo
+    },
+    {
+      id: "pro-5",
+      title: "My Portfolio ",
+      summary: "Created My Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
+      link: "https://my-portfolio-84lr.vercel.app/projects",
+      github: "https://github.com/Yhucee14/my-portfolio",
+      img: portfolio
     },
   ];
