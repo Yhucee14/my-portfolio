@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`${quicksand.variable} font-quicksand w-full min-h-screen `}>
+      <main className={`${quicksand.variable} font-quicksand dark:bg-black w-full min-h-screen `}>
         <Navbar />
         <Component {...pageProps} />
         <Footer />

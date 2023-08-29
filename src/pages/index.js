@@ -15,13 +15,14 @@ export default function Home() {
       </Head>
 
       <main className='flex items-center text-black w-full'>
-        <Layout className='pt-3 '>
-          <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2 h-max rounded-2xl border-2 border-solid border-black bg-green p-2'>
+        <Layout className='pt-3'>
+          <div className='flex xx:flex-col sm:flex-row items-center justify-between w-full'>
+            <div className='sm:w-1/2 xx:w-full h-max rounded-2xl border-2 border-solid border-black bg-green p-2'>
               <Image src={profilePic} alt='img' className='w-full h-auto rounded-2xl' />
             </div>
-            <div className='w-1/2 px-5 flex flex-col items-center self-center'>
-              <AnimatedText text="Hello, I am Uche." className='!text-4xl !text-left'/>
+
+            <div className='sm:w-1/2 xx:w-full px-5 py-3 flex flex-col items-center self-center'>
+              <AnimatedText text="Hello, I am Uche." className='sm:!text-4xl xx:text-3xl !text-left'/>
               <p className='my-4 text-base font-medium'>
                 As a skilled Front-End Web developer, I am dedicated to turning ideas into innovative web applications.
                 Explore my latest projects showcasing my abilities in React.js and web development.
@@ -35,8 +36,8 @@ export default function Home() {
                 </Link> 
 
                 <Link href='mailto:uchechukwu7814@gmail.com' target={"_blank"}
-                className='ml-4 text-lg font-medium capitalize text-black underline underline-offset-8'>
-                  Contact
+                className='ml-4 text-lg font-semibold capitalize text-black  underline p-1 py-2 rounded-lg underline-offset-8 hover:border-2 hover:border-black hover:no-underline'>
+                  Contact Me
                 </Link>
               </div>
             </div>

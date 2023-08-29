@@ -28,7 +28,7 @@ const projects = () => {
                         {FeaturedProjects.map((pro) => (
                             <motion.article
                                 initial={{ y: 50 }}
-                                whileInView={{ y: 0, transition: { duration: 1.2, ease: 'easeInOut', staggerChildren: 0.08, } }}
+                                whileInView={{ y: 0, transition: { duration: 1.2, ease: 'easeInOut', staggerChildren: 0.08, } }} viewport={{once: true}}
 
                                 key={pro} className=' border border-solid p-5 border-black shadow-2xl rounded-3xl  w-full flex items-center justify-between  '>
 
@@ -62,7 +62,7 @@ const projects = () => {
                         </div>
 
                         {OtherProjects.map((pro) => (
-                            <motion.article initial={{ y: 200 }}
+                            <motion.article initial={{ y: 200 }}  viewport={{once: true}}
                                 whileInView={{ y: 0, transition: { duration: 1.2, ease: 'easeInOut', staggerChildren: 0.08, } }} key={pro} className=' border border-solid border-black shadow-2xl p-2 rounded-3xl w-full flex flex-col  justify-between  '>
 
                                 <Link href={pro.link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>

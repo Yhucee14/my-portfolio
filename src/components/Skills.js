@@ -22,8 +22,8 @@ const Skill = ({name, x, y}) => {
 const Skills = () => {
   return (
     <>
-   <AnimatedText text='Skills' className='font-bold text-3xl mt-20 w-full text-left' />
-    <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight px-10'>
+   <AnimatedText text='Skills' className='font-bold text-3xl mt-20 w-full sm:text-left xx:text-center' />
+    <div className='w-full sm:h-screen xx:h-[450px] relative flex items-center justify-center rounded-full bg-circularLight px-10'>
         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-black text-white p-6 shadow-black cursor-pointer' whileHover={{scale:1.2 }}>
             Web
         </motion.div>
@@ -36,7 +36,7 @@ const Skills = () => {
         <Skill name='NextJS' x='14vw' y='-22vw'/>
         <Skill name='Tailwind CSS' x='-23vw' y='3vw'/>
         <Skill name='ReactJS' x='-14vw' y='-22vw'/>
-        <Skill name='Wordpress' x='1vw' y='21vw'/>
+        <Skill name='Wordpress' x='0vw' y='29vw'/>
 
     </div>
     </>
