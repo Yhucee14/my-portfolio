@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from './Layout'
-import Link from 'next/link'
+import { TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icon'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
@@ -9,9 +10,32 @@ const Footer = () => {
         <Layout className='sm:py-6 xx:py-3 flex xx:flex-col sm:flex-row items-center justify-between'>
             <span className='py-1'>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
             <span className='py-1'>Built with Nextjs and Tailwind</span>
-            <Link href='mailto:uchechukwu7814@gmail.com' target={"_blank"} className='py-1 px-2 hover:bg-black hover:text-white hover:border-2 hover:border-gray rounded-lg border-2 border-black'>
-              Say Hello
-            </Link>
+            
+            
+            <nav className='flex items-center justify-center flex-wrap '>
+                <motion.a href='https://twitter.com/Ucee_14' target={'_blank'}
+                    whileHover={{ y: -4 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mx-3'>
+                    <TwitterIcon />
+                </motion.a>
+
+                <motion.a href='https://github.com/Yhucee14' target={'_blank'} className='w-6 mx-3'
+                    whileHover={{ y: -4 }}
+                    whileTap={{ scale: 0.9 }}
+                >
+                    <GithubIcon />
+                </motion.a>
+
+                <motion.a href='https://twitter.com/Ucee_14' target={'_blank'} className='w-6 ml-3'
+                    whileHover={{ y: -4 }}
+                    whileTap={{ scale: 0.9 }}>
+                    <LinkedInIcon />
+                </motion.a>
+
+          
+
+            </nav>
         </Layout>
     </footer>
   )

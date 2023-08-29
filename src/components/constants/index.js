@@ -29,7 +29,7 @@ export const ExpDetails = [
       companyLink: "www.zuriHNG.com",
       company: "Preggify",
       time: "June 2023 - Present",
-      work: "Monitor a product from conceptualization through the planning and development.- Develop new product.- Design and execute plans.- Test the product and launch it to the market."
+      work: "At Preggify i am part of a team that monitors a product from conceptualization through the planning and development phase. We Develop new product, Design and execute plans, Test the product and launch it to the market."
     },
   ];
 

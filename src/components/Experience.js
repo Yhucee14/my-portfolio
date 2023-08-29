@@ -14,28 +14,28 @@ const Experience = () => {
     );
 
     return (
-        <div className='my-20'>
-            <AnimatedText text='Experience' className='font-bold text-3xl mb-10 w-full text-left' />
+        <div className='sm:my-20 xx:my-10'>
+            <AnimatedText text='Experience' className='font-bold text-3xl sm:mb-10 xx:mb-5 w-full sm:text-left xx:text-center' />
 
-            <div ref={ref} className='mx-auto relative'>
+            <div ref={ref} className='sm:mx-auto relative'>
                 <motion.div 
                 style={{scaleY: scrollYProgress}}
-                className='absolute -left-2 top-0 w-[2px] h-full bg-black origin-top '/>
+                className='absolute xx:ml-3 -left-2 top-0 w-[2px] h-full bg-black origin-top '/>
 
                 {ExpDetails.map((exp) => (
                     <>
-                        <ul className='my-6 ml-10 first:mt-0 last:mb-0 w-[60%]  flex flex-col items-center justify-between'>
+                        <ul className='my-6 sm:ml-10 xx:ml-6 first:mt-0 last:mb-0 sm:w-[60%] xx:w-[90%] xx:px-1  flex flex-col items-center justify-between'>
                             <li ref={ref}>
                                 <LiIcon reference={ref}/>
                                 <div key={exp}>
-                                    <h3 className='capitalize font-bold text-2xl'>
+                                    <h3 className='capitalize font-bold sm:text-2xl xx:text-xl py-1'>
                                         {exp.position}&nbsp;
                                         <a href={exp.companyLink} target='_blank' className='text-rightBlue capitalize'>@{exp.company}</a>
                                     </h3>
-                                    <span className='capitalize font-medium text-black/75'>
+                                    <span className='capitalize font-medium text-black/75 '>
                                         {exp.time} | {exp.address}
                                     </span>
-                                    <p className='font-medium w-full'>
+                                    <p className='font-medium w-full py-1'>
                                         {exp.work}
                                     </p>
                                 </div>
