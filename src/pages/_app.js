@@ -15,10 +15,10 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faviconn.ico" />
       </Head>
 
-      <main className={`${quicksand.variable} font-quicksand dark:bg-black w-full min-h-screen `}>
+      <main className={`${quicksand.variable} font-quicksand  dark:bg-black w-full min-h-screen `}>
         <Navbar />
         <Component {...pageProps} />
         <Footer />

@@ -3,6 +3,8 @@ import weather from '../constants/projects/weather.png'
 import smartsum from '../constants/projects/smartsum.png'
 import auth from '../constants/projects/auth.png'
 import todo from '../constants/projects/todo.png'
+import moviebox from '../constants/projects/moviebox.png'
+import dnd from '../constants/projects/dnd.png'
 import portfolio from '../constants/projects/portfolio.png'
 
 
@@ -53,12 +55,11 @@ export const ExpDetails = [
   export const FeaturedProjects = [
     {
       id: "pro-1",
-      title: "Article Summarizer",
-      type: 'Featured project',
-      summary: "An AI article summarizer that leverages on Open AI's model to provide concise summaries.",
-      link: "www.github.com",
-      github: "www.github.com",
-      img: smartsum
+      title: "Todo Web App ",
+      summary: "Built a simple todo app that prevents procrastination and lets you get things done",
+      link: "https://todo-app-dun-three-39.vercel.app",
+      github: "https://github.com/Yhucee14/Todo-App",
+      img: todo
     },
   ];
 
@@ -67,7 +68,7 @@ export const ExpDetails = [
       id: "pro-1",
       title: "Article Summarizer",
       type: 'Featured project',
-      summary: "An AI article summarizer that leverages on Open AI's model to provide concise summaries.",
+      summary: "Built an AI article summarizer that leverages on Open AI's model to provide concise summaries of websites or articles.",
       link: "https://smart-sum-yhucee14.vercel.app",
       github: "https://github.com/Yhucee14/SmartSum",
       img: smartsum
@@ -75,7 +76,7 @@ export const ExpDetails = [
     {
       id: "pro-2",
       title: "Weather App",
-      summary: "A weather forecast application that provides information on the weather conditions of various areas using Rapid Api.",
+      summary: "Built a weather forecast application that provides information on the weather conditions of some international cities using Rapid Api.",
       link: "https://lighthearted-biscochitos-7a8002.netlify.app",
       github: "https://github.com/Yhucee14/Weather-App",
       img: weather
@@ -83,7 +84,7 @@ export const ExpDetails = [
     {
       id: "pro-3",
       title: "Form Authentication ",
-      summary: "Created a login/register form with forgot password feature that sends a reset password message to your Email using Firebase for data storage and authentication.",
+      summary: "Practiced Firebase and built a login/register form with forgot password feature that sends a reset password message to your Email using Firebase for data storage and authentication.",
       link: "https://form-auth-test-fskp.vercel.app",
       github: "https://github.com/Yhucee14/Form-auth-test",
       img: auth
@@ -91,7 +92,7 @@ export const ExpDetails = [
     {
       id: "pro-4",
       title: "Todo Web App ",
-      summary: "Created a A simple todo app that prevents procrastination and lets you get things done",
+      summary: "Built a simple todo app that prevents procrastination and lets you get things done",
       link: "https://todo-app-dun-three-39.vercel.app",
       github: "https://github.com/Yhucee14/Todo-App",
       img: todo
@@ -99,9 +100,25 @@ export const ExpDetails = [
     {
       id: "pro-5",
       title: "My Portfolio ",
-      summary: "Created my Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
-      link: "https://my-portfolio-84lr.vercel.app/projects",
+      summary: "Built my Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
+      link: "https://my-portfolio-yhucee14.vercel.app/",
       github: "https://github.com/Yhucee14/my-portfolio",
       img: portfolio
+    },
+    {
+      id: "pro-6",
+      title: "MovieBox ",
+      summary: "Built a movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies using data from the TMDB API.",
+      link: "https://movie-discovery-app-three.vercel.app/",
+      github: "https://github.com/Yhucee14/movie-discovery-app",
+      img: moviebox
+    },
+    {
+      id: "pro-7",
+      title: "Dnd Gallery ",
+      summary: "Built a fully functional and responsive image gallery that showcases a collection of images in a visually appealing way.",
+      link: "https://my-portfolio-84lr.vercel.app/projects",
+      github: "https://github.com/Yhucee14/dnd-gallery",
+      img: dnd
     },
   ];

@@ -42,34 +42,8 @@ const Navbar = () => {
     };
 
     return (
-        <header className='w-full sm:px-16 xx:px-5 py-5 font-medium flex items-center justify-between dark:text-white'>
+        <header className='w-full h-[85px] shadow-md sm:px-16 xx:px-5 py-5 font-medium flex items-center justify-between dark:text-white'>
             <Logo />
-
-               
-            <nav className='flex items-center justify-center flex-wrap visible xx:hidden'>
-                <motion.a href='https://twitter.com/Ucee_14' target={'_blank'}
-                    whileHover={{ y: -4 }}
-                    whileTap={{ scale: 0.9 }}
-                    className='w-6 mx-3'>
-                    <TwitterIcon />
-                </motion.a>
-
-                <motion.a href='https://github.com/Yhucee14' target={'_blank'} className='w-6 mx-3'
-                    whileHover={{ y: -4 }}
-                    whileTap={{ scale: 0.9 }}
-                >
-                    <GithubIcon />
-                </motion.a>
-
-                <motion.a href='https://twitter.com/Ucee_14' target={'_blank'} className='w-6 ml-3'
-                    whileHover={{ y: -4 }}
-                    whileTap={{ scale: 0.9 }}>
-                    <LinkedInIcon />
-                </motion.a>
-
-
-            </nav>
-
 
             <nav className={`${isMobileMenuOpen
                 ? "absolute p-4  top-16  right-5 font-medium w-[230px] rounded-lg h-[170px]  bg-white shadow-md border-y-[1px] border-[#00000048] flex flex-col "
@@ -80,6 +54,34 @@ const Navbar = () => {
                 <CustomLink href='/about' title="About" className='mx-4 py-2' setMobileMenuOpen={setMobileMenuOpen} />
                 <CustomLink href='/projects' title="Projects" className='ml-4 py-2' setMobileMenuOpen={setMobileMenuOpen} />
             </nav>
+
+               
+            <nav className='flex items-center justify-center flex-wrap '>
+                {/* <motion.a href='https://twitter.com/Ucee_14' target={'_blank'}
+                    whileHover={{ y: -4 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mx-3'>
+                    <TwitterIcon />
+                </motion.a> */}
+
+                <motion.a href='https://github.com/Yhucee14' target={'_blank'} className='w-8 mx-3'
+                    whileHover={{ y: -4 }}
+                    whileTap={{ scale: 0.9 }}
+                >
+                    <GithubIcon />
+                </motion.a>
+
+                {/* <motion.a href='https://twitter.com/Ucee_14' target={'_blank'} className='w-6 ml-3'
+                    whileHover={{ y: -4 }}
+                    whileTap={{ scale: 0.9 }}>
+                    <LinkedInIcon />
+                </motion.a> */}
+
+
+            </nav>
+
+
+        
 
             <button
                 onClick={toggleMobileMenu}

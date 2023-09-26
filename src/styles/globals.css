@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.gray_gradient {
+/* .gray_gradient {
   @apply bg-gradient-to-r from-leftGray to-rightGray ;
 }
 
@@ -12,4 +12,4 @@
 
 .orange_gradient {
   @apply bg-gradient-to-r from-leftOrange to-rightOrange ;
-}
+} */

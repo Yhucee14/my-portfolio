@@ -36,7 +36,7 @@ const Skills = () => {
         <Skill name='NextJS' x='17vw' y='-25vw'/>
         <Skill name='Tailwind CSS' x='-32vw' y='3vw'/>
         <Skill name='ReactJS' x='-18vw' y='-26vw'/>
-        <Skill name='Wordpress' x='0vw' y='32vw'/>
+        <Skill name='Wordpress' x='0vw' y='28vw'/>
 
     </div>
     </>

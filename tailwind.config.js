@@ -14,12 +14,12 @@ module.exports = {
         quicksand: ['var(--font-quicksand)'],
       },
       colors: {
-        leftGray: '#4a4a4a',
         rightGray: '#333333',
         leftBlue: '#004d99',
         rightBlue: '#002147',
         leftOrange: '#ffcc99',
         rightOrange: '#ff9966',
+        
       },
       screens: {
         xx: "320px",

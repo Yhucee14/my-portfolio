@@ -49,10 +49,10 @@ const about = () => {
 
                     <div className='grid w-full sm:grid-cols-8 xx:grid-cols-3 gap-16'>
 
-                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-green p-4'>
+                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-green p-4 px-5'>
 
                             {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-black' /> */}
-                            <Image src={profilePic} alt='img' className='w-full sm:h-auto xx:h-[450px] xx:w-full rounded-2xl' />
+                            <Image src={profilePic} alt='img' className='w-full sm:h-auto xx:h-[350px] xx:w-full rounded-2xl' />
                         </div>
 
                         <div className='col-span-3 flex flex-col items-start justify-start'>
@@ -60,16 +60,15 @@ const about = () => {
                             <p className='font-medium'>
                                 Hi, I am Uche, a web developer with a passion for creating beautiful, functional,
                                 and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients visions to life.
+                                new and innovative ways to bring my ideas to life.
                             </p>
                             <p className='my-3 font-medium'>
                                 I believe that web development is about more than just making things look pretty, it is about solving problems and
                                 creating intuitive, enjoyable experiences for users.
                             </p>
                             <p className='font-medium'>
-                                Whether I am working on a website, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                                 I always bring my commitment to excellence and user-centered thinking to
+                                every project I work on and i look forward to the opportunity to bring my skills and passion to your next project.
 
                             </p>
                         </div>
@@ -85,7 +84,7 @@ const about = () => {
 
                             <div className='sm:col-span-2 xx:col-span-3 flex flex-col items-center justify-between pt-20'>
                                 <span className='inline-block text-4xl font-bold'>
-                                <AnimatedNumbers value={4}/>+
+                                <AnimatedNumbers value={7}/>
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-black/75'>Projects Completed</h2>
                             </div>
