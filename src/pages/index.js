@@ -18,7 +18,7 @@ export default function Home() {
         <Layout className='pt-3 '>
           <div className='flex xx:flex-col sm:flex-row items-center  justify-between w-full'>
             <div className='sm:w-[40%] xx:w-full h-max rounded-2xl border-2 border-solid border-black bg-green p-2'>
-              <Image src={profilePic} alt='img' className='w-[100%] sm:h-[450px] xx:h-[350px] rounded-2xl' />
+              <Image src={profilePic} alt='img' className='w-[100%] sm:h-[450px] xx:h-[450px] rounded-2xl' />
             </div>
 
             <div className='sm:w-1/2 xx:w-full px-2 py-3 flex flex-col items-center self-center'>
