@@ -28,7 +28,7 @@ const Footer = () => {
                     <GithubIcon />
                 </motion.a>
 
-                <motion.a href='https:linkedin.com/in/uche-chukwu-248bb8280' target={'_blank'} className='w-6 ml-3'
+                <motion.a href='https://linkedin.com/in/uche-chukwu-248bb8280' target={'_blank'} className='w-6 ml-3'
                     whileHover={{ y: -4 }}
                     whileTap={{ scale: 0.9 }}>
                     <LinkedInIcon />
