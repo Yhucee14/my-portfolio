@@ -66,15 +66,6 @@ export const ExpDetails = [
   export const OtherProjects = [
     {
       id: "pro-1",
-      title: "Article Summarizer",
-      type: 'Featured project',
-      summary: "Built an AI article summarizer that leverages on Open AI's model to provide concise summaries of websites or articles.",
-      link: "https://smart-sum-yhucee14.vercel.app",
-      github: "https://github.com/Yhucee14/SmartSum",
-      img: smartsum
-    },
-    {
-      id: "pro-2",
       title: "Weather App",
       summary: "Built a weather forecast application that provides information on the weather conditions of some international cities using Rapid Api.",
       link: "https://lighthearted-biscochitos-7a8002.netlify.app",
@@ -82,12 +73,20 @@ export const ExpDetails = [
       img: weather
     },
     {
+      id: "pro-2",
+      title: "MovieBox ",
+      summary: "Built a movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies using data from the TMDB API.",
+      link: "https://movie-discovery-app-three.vercel.app/",
+      github: "https://github.com/Yhucee14/movie-discovery-app",
+      img: moviebox
+    },
+    {
       id: "pro-3",
-      title: "Form Authentication ",
-      summary: "Practiced Firebase and built a login/register form with forgot password feature that sends a reset password message to your Email using Firebase for data storage and authentication.",
-      link: "https://form-auth-test-fskp.vercel.app",
-      github: "https://github.com/Yhucee14/Form-auth-test",
-      img: auth
+      title: "Dnd Gallery ",
+      summary: "Built a fully functional and responsive image gallery that showcases a collection of images in a visually appealing way.",
+      link: "https://my-portfolio-84lr.vercel.app/projects",
+      github: "https://github.com/Yhucee14/dnd-gallery",
+      img: dnd
     },
     {
       id: "pro-4",
@@ -107,18 +106,22 @@ export const ExpDetails = [
     },
     {
       id: "pro-6",
-      title: "MovieBox ",
-      summary: "Built a movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies using data from the TMDB API.",
-      link: "https://movie-discovery-app-three.vercel.app/",
-      github: "https://github.com/Yhucee14/movie-discovery-app",
-      img: moviebox
+      title: "Form Authentication ",
+      summary: "Practiced Firebase and built a login/register form with forgot password feature that sends a reset password message to your Email using Firebase for data storage and authentication.",
+      link: "https://form-auth-test-fskp.vercel.app",
+      github: "https://github.com/Yhucee14/Form-auth-test",
+      img: auth
     },
+  
     {
       id: "pro-7",
-      title: "Dnd Gallery ",
-      summary: "Built a fully functional and responsive image gallery that showcases a collection of images in a visually appealing way.",
-      link: "https://my-portfolio-84lr.vercel.app/projects",
-      github: "https://github.com/Yhucee14/dnd-gallery",
-      img: dnd
+      title: "Article Summarizer",
+      type: 'Featured project',
+      summary: "Built an AI article summarizer that leverages on Open AI's model to provide concise summaries of websites or articles.",
+      link: "https://smart-sum-yhucee14.vercel.app",
+      github: "https://github.com/Yhucee14/SmartSum",
+      img: smartsum
     },
+    
+  
   ];
