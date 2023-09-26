@@ -52,7 +52,7 @@ const about = () => {
                         <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-green p-4 px-5'>
 
                             {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-black' /> */}
-                            <Image src={profilePic} alt='img' className='w-full sm:h-auto xx:h-[350px] xx:w-full rounded-2xl' />
+                            <Image src={profilePic} alt='img' className='w-full sm:h-[400px] xx:h-[350px] xx:w-full rounded-2xl' />
                         </div>
 
                         <div className='col-span-3 flex flex-col items-start justify-start'>
