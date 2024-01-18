@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useRef, useEffect } from 'react'
-import profilePic from '../pages/profile/uc2.jpg'
+import pro from '../pages/profile/pro.jpeg'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
@@ -42,21 +42,21 @@ const about = () => {
                 <meta name="description" content="any description" />
             </Head>
 
-            <main className='flex w-full flex-col items-center justify-center'>
+            <main className='flex w-full flex-col text-gray-300 items-center justify-center'>
                 <Layout className='pt-8'>
                     <AnimatedText text="Writing Lines That Transform Lives." className='xx:text-3xl sm:text-4xl mb-8' />
 
 
-                    <div className='grid w-full sm:grid-cols-8 xx:grid-cols-3 gap-16'>
+                    <div className='grid w-full md:grid-cols-9 xx:grid-cols-3 gap-10'>
 
-                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-green p-4 px-5'>
+                        <div className='col-span-3 relative rounded-2xl border-2 border-solid border-gray-300 bg-green p-2 px-2'>
 
                             {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-black' /> */}
-                            <Image src={profilePic} alt='img' className='w-full sm:h-[400px] xx:h-[450px] xx:w-full rounded-2xl' />
+                            <Image src={pro} alt='img' className='w-full   xx:w-full rounded-2xl' />
                         </div>
 
-                        <div className='col-span-3 flex flex-col items-start justify-start'>
-                            <h2 className='mb-4 font-bold uppercase'>About Me</h2>
+                        <div className='col-span-3 flex flex-col items-start justify-center'>
+                            <h2 className='mb-4 font-bold  uppercase'>About Me</h2>
                             <p className='font-medium'>
                                 Hi, I am Uche, a web developer with a passion for creating beautiful, functional,
                                 and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
@@ -73,24 +73,23 @@ const about = () => {
                             </p>
                         </div>
 
-                        <div className='sm:col-span-2 xx:col-span-3 flex flex-col items-center '>
+                        <div className='sm:col-span-3 xx:col-span-3 flex flex-col items-center justify-center'>
 
                             <div className='flex flex-col items-center justify-between sm:pt-10 xx:pt-5'>
                                 <span className='inline-block text-4xl font-bold'>
                                     <AnimatedNumbers value={2}/>+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-black/75'>Years Of Experience</h2>
+                                <h2 className='text-xl font-medium capitalize '>Years Of Experience</h2>
                             </div>
 
                             <div className='sm:col-span-2 xx:col-span-3 flex flex-col items-center justify-between pt-20'>
                                 <span className='inline-block text-4xl font-bold'>
                                 <AnimatedNumbers value={7}/>
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-black/75'>Projects Completed</h2>
+                                <h2 className='text-xl font-medium capitalize '>Projects Completed</h2>
                             </div>
 
                         </div>
-
 
                     </div>
 

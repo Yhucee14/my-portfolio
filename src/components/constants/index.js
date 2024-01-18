@@ -6,6 +6,7 @@ import todo from '../constants/projects/todo.png'
 import moviebox from '../constants/projects/moviebox.png'
 import dnd from '../constants/projects/dnd.png'
 import portfolio from '../constants/projects/portfolio.png'
+import conf from '../constants/projects/conf.png'
 
 
 export const ExpDetails = [
@@ -33,6 +34,14 @@ export const ExpDetails = [
       time: "June 2023 - Present",
       work: "At Preggify i am part of a team that monitors a product from conceptualization through the planning and development phase. We Develop new product, Design and execute plans, Test the product and launch it to the market."
     },
+    {
+      id: "exp-4",
+    position: "Software Developer / IT Consultant	",
+    companyLink: "www.Atrizult.com",
+    company: "Atrizult",
+    time: "December 2023 - January 2023",
+    work: "At Atrizult i Designed and implemented robust Software, DevOps pipelines, integrating various tools and technologies for continuous integration, delivery, and deployment. I also provided guidance and support to development and operations teams, promoting collaboration, communication, and knowledge sharing."
+  },
   ];
 
   export const EduDetails = [
@@ -121,6 +130,16 @@ export const ExpDetails = [
       link: "https://smart-sum-yhucee14.vercel.app",
       github: "https://github.com/Yhucee14/SmartSum",
       img: smartsum
+    },
+
+    {
+      id: "pro-7",
+      title: "Tech Starters",
+      type: 'Featured project',
+      summary: "Built Tech Starters Conference website",
+      link: "https://tech-con.vercel.app",
+      github: "https://github.com/Yhucee14/tech-con",
+      img: conf
     },
     
   

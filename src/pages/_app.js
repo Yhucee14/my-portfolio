@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/faviconn.ico" />
       </Head>
 
-      <main className={`${quicksand.variable} font-quicksand  dark:bg-black w-full min-h-screen `}>
+      <main className={`${quicksand.variable} font-quicksand bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700  w-full min-h-screen `}>
         <Navbar />
         <Component {...pageProps} />
         <Footer />

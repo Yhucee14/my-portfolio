@@ -16,13 +16,13 @@ const CustomLink = ({ href, title, className = "", setMobileMenuOpen }) => {
     };
 
     return (
-        <Link href={href} className={`${className} relative group cursor-pointer ${isActive ? "text-green" : "text-black"
+        <Link href={href} className={`${className} relative group cursor-pointer ${isActive ? "text-green" : "text-white"
             }`} onClick={handleClick}>
 
             {title}
 
 
-            <span className={`h-[1px] inline-block bg-black absolute bottom-0 left-0
+            <span className={`h-[1px] inline-block bg-gray-300 absolute bottom-0 left-0
         group-hover:w-full transition-[width] ease duration-500
         ${router.asPath === href ? 'w-full' : 'w-0'} dark:bg-white`} >
                 &nbsp;
@@ -34,7 +34,7 @@ const CustomLink = ({ href, title, className = "", setMobileMenuOpen }) => {
 
 const Navbar = () => {
 
-    const [mode, setMode] = useThemeSwitcher();
+  
 
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
     const toggleMobileMenu = () => {
@@ -42,13 +42,13 @@ const Navbar = () => {
     };
 
     return (
-        <header className='w-full h-[85px] shadow-md sm:px-16 xx:px-5 py-5 font-medium flex items-center justify-between dark:text-white'>
+        <header className='w-full h-[85px] shadow-sm shadow-gray-300 sm:px-16 xx:px-5 py-5 font-medium flex items-center justify-between text-gray-200'>
             <Logo />
 
             <nav className={`${isMobileMenuOpen
-                ? "absolute p-4  top-16  right-5 font-medium w-[230px] rounded-lg h-[170px]  bg-white shadow-md border-y-[1px] border-[#00000048] flex flex-col "
+                ? "absolute p-4  top-20 left-24 font-bold w-[230px] rounded-lg h-[170px]  bg-blue-600 shadow-md border-y-[1px] border-[#00000048] flex flex-col "
                 : "hidden"
-                } sm:flex flex-row mr-14`}>
+                } sm:flex flex-row `}>
 
                 <CustomLink href='/' title="Home" className='mx-4 py-2' setMobileMenuOpen={setMobileMenuOpen} />
                 <CustomLink href='/about' title="About" className='mx-4 py-2' setMobileMenuOpen={setMobileMenuOpen} />
@@ -64,7 +64,7 @@ const Navbar = () => {
                     <TwitterIcon />
                 </motion.a> */}
 
-                <motion.a href='https://github.com/Yhucee14' target={'_blank'} className='w-8 mx-3'
+                <motion.a href='https://github.com/Yhucee14' target={'_blank'} className='w-9 mx-3'
                     whileHover={{ y: -4 }}
                     whileTap={{ scale: 0.9 }}
                 >

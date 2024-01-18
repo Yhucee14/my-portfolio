@@ -8,17 +8,8 @@ const MotionLink = motion(Link);
 const Logo = () => {
   return (
     <div className='flex items-center justify-center mt-2'>
-        <MotionLink href='/' className='w-16 h-16 bg-black flex items-center justify-center border border-solid border-transparent  dark:border-white text-white rounded-full text-xl font-bold'
-        whileHover={{
-            backgroundColor:[
-            'rgba(131,58,180,1)',
-            'rgba(253,29,29,1)',
-            'rgba(252,176,69,1)',
-            'rgba(131,58,180,1)',
-            ],
-            transition:{duration:1, repeat: Infinity}
-
-        }}>
+        <MotionLink href='/' className='w-16 h-16 bg-white flex items-center justify-center border border-solid border-transparent text-black rounded-full text-xl font-bold'
+     >
             UCHE
         </MotionLink>
     </div>

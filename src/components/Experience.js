@@ -20,19 +20,20 @@ const Experience = () => {
             <div ref={ref} className='sm:mx-auto relative'>
                 <motion.div 
                 style={{scaleY: scrollYProgress}}
-                className='absolute xx:ml-3 -left-2 top-0 w-[2px] h-full bg-black origin-top '/>
+                className='absolute xx:ml-3 -left-2 top-0 w-[2px] h-full bg-gray-300 origin-top '/>
 
                 {ExpDetails.map((exp) => (
                     <>
-                        <ul className='my-6 sm:ml-10 xx:ml-6 first:mt-0 last:mb-0 sm:w-[60%] xx:w-[90%] xx:px-1  flex flex-col items-center justify-between'>
+                        <ul className='my-6 md:ml-10 xx:ml-6 first:mt-0 last:mb-0 md:w-[60%] xx:w-[90%] xx:px-1  flex flex-col items-center justify-between'>
                             <li ref={ref}>
                                 <LiIcon reference={ref}/>
                                 <div key={exp}>
                                     <h3 className='capitalize font-bold sm:text-2xl xx:text-xl py-1'>
                                         {exp.position}&nbsp;
-                                        <a href={exp.companyLink} target='_blank' className='text-rightBlue capitalize'>@{exp.company}</a>
+                                        <a href={exp.companyLink} target='_blank' className='text-rightOrange capitalize'>@{exp.company}</a>
                                     </h3>
-                                    <span className='capitalize font-medium text-black/75 '>
+                                    <span className='capitalize font-medium text-gray-300
+                                     '>
                                         {exp.time} | {exp.address}
                                     </span>
                                     <p className='font-medium w-full py-1'>
