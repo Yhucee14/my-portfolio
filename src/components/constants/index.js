@@ -7,6 +7,7 @@ import moviebox from '../constants/projects/moviebox.png'
 import dnd from '../constants/projects/dnd.png'
 import portfolio from '../constants/projects/portfolio.png'
 import conf from '../constants/projects/conf.png'
+import pre from '../constants/projects/pre.png'
 
 
 export const ExpDetails = [
@@ -64,22 +65,23 @@ export const ExpDetails = [
   export const FeaturedProjects = [
     {
       id: "pro-1",
-      title: "Todo Web App ",
-      summary: "Built a simple todo app that prevents procrastination and lets you get things done",
-      link: "https://todo-app-dun-three-39.vercel.app",
-      github: "https://github.com/Yhucee14/Todo-App",
-      img: todo
+      title: "Preggify",
+      summary: "Collaborated with the team to build Preggify's website for pregnant women and aspiring mothers.",
+      link: "https://preggify.com",
+      github: "https://github.com/Yhucee14",
+      img: pre
     },
   ];
 
   export const OtherProjects = [
     {
       id: "pro-1",
-      title: "Weather App",
-      summary: "Built a weather forecast application that provides information on the weather conditions of some international cities using Rapid Api.",
-      link: "https://lighthearted-biscochitos-7a8002.netlify.app",
-      github: "https://github.com/Yhucee14/Weather-App",
-      img: weather
+      title: "Tech Starters",
+      type: 'Featured project',
+      summary: "Built Tech Starters Conference website",
+      link: "https://tech-con.vercel.app",
+      github: "https://github.com/Yhucee14/tech-con",
+      img: conf
     },
     {
       id: "pro-2",
@@ -131,16 +133,15 @@ export const ExpDetails = [
       github: "https://github.com/Yhucee14/SmartSum",
       img: smartsum
     },
-
     {
       id: "pro-7",
-      title: "Tech Starters",
-      type: 'Featured project',
-      summary: "Built Tech Starters Conference website",
-      link: "https://tech-con.vercel.app",
-      github: "https://github.com/Yhucee14/tech-con",
-      img: conf
+      title: "Weather App",
+      summary: "Built a weather forecast application that provides information on the weather conditions of some international cities using Rapid Api.",
+      link: "https://lighthearted-biscochitos-7a8002.netlify.app",
+      github: "https://github.com/Yhucee14/Weather-App",
+      img: weather
     },
+ 
     
   
   ];
