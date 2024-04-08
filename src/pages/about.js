@@ -59,7 +59,7 @@ const about = () => {
                             <h2 className='mb-4 font-bold  uppercase'>About Me</h2>
                             <p className='font-medium'>
                                 Hi, I am Uche, a web developer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
+                                and user-centered digital experiences. With over 3 years of experience in the field. I am always looking for
                                 new and innovative ways to bring my ideas to life.
                             </p>
                             <p className='my-3 font-medium'>
@@ -77,7 +77,7 @@ const about = () => {
 
                             <div className='flex flex-col items-center justify-between sm:pt-10 xx:pt-5'>
                                 <span className='inline-block text-4xl font-bold'>
-                                    <AnimatedNumbers value={2}/>+
+                                    <AnimatedNumbers value={3}/>+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize '>Years Of Experience</h2>
                             </div>
