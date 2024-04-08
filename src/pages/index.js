@@ -30,7 +30,7 @@ export default function Home() {
                 Explore my latest projects showcasing my abilities in web development.
               </p>
               <div className='flex items-center self-start mt-2'>
-                <Link href='/Resume.png' target={"_blank"}
+                <Link href='/Resume.pdf' target={"_blank"}
                 className='flex items-center bg-blue-600 text-white text-lg font-semibold hover:bg-gray-200 hover:text-black p-2 px-4 rounded-lg
                 border-2 border-solid border-gray-400 hover:border-blue-500'
                 download={true}>
