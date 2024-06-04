@@ -1,26 +1,15 @@
 
 import weather from '../constants/projects/weather.png'
-import smartsum from '../constants/projects/smartsum.png'
-import auth from '../constants/projects/auth.png'
 import todo from '../constants/projects/todo.png'
-import moviebox from '../constants/projects/moviebox.png'
-import dnd from '../constants/projects/dnd.png'
-import portfolio from '../constants/projects/portfolio.png'
-import conf from '../constants/projects/conf.png'
+import port from '../constants/projects/port.png'
+import osdes from '../constants/projects/osdes.png'
 import pre from '../constants/projects/pre.png'
 
 
 export const ExpDetails = [
+   
     {
-      id: "exp-1",
-      position: "Intern",
-      companyLink: "https://lms.terrahq.co",
-      company: "Side-Hustle Internship",
-      time: "March 2022 - April 2022",
-      work: "At SideHustle I worked remotely for a month and I was exposed to React, a Javascript framework used in Web Development. We worked collectively in groups to create an online web store"
-    },
-    {
-        id: "exp-2",
+        id: "exp-1",
       position: "Intern",
       companyLink: "https://internship.zuri.team",
       company: "Zuri",
@@ -28,19 +17,19 @@ export const ExpDetails = [
       work: "At Zuri i worked remotely and extensively improved my React skills by making use of Material UI, a CSS framework used for Front-End web development. I built a landing page displaying my personal page, and another website that sells imaginary NFT’s."
     },
     {
-        id: "exp-3",
+        id: "exp-2",
       position: "Software Developer Intern",
       companyLink: "www.zuriHNG.com",
       company: "Preggify",
-      time: "June 2023 - Present",
-      work: "At Preggify i am part of a team that monitors a product from conceptualization through the planning and development phase. We Develop new product, Design and execute plans, Test the product and launch it to the market."
+      time: "June 2023 - Febuary 2024",
+      work: "At Preggify I worked with the team to build Preggify.com dedicated to helping career-driven women achieve work-motherhood balance by providing flexible technology assisted mother and child friendly support services, and to create a world where career-driven women are not limited by the burden of pregnancy and childcare."
     },
     {
-      id: "exp-4",
+      id: "exp-3",
     position: "Software Developer / IT Consultant	",
     companyLink: "www.Atrizult.com",
     company: "Atrizult",
-    time: "December 2023 - January 2023",
+    time: "December 2023 - Febuary 2023",
     work: "At Atrizult i Designed and implemented robust Software, DevOps pipelines, integrating various tools and technologies for continuous integration, delivery, and deployment. I also provided guidance and support to development and operations teams, promoting collaboration, communication, and knowledge sharing."
   },
   ];
@@ -57,7 +46,7 @@ export const ExpDetails = [
         id: "edu-2",
       type: "Bachelor Of Science In Computer Engineering",
       place: "Enugu State University Of Science and Technology",
-      time: "2019-Present",
+      time: "2019-2024",
       info: "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
     },
   ];
@@ -76,31 +65,15 @@ export const ExpDetails = [
   export const OtherProjects = [
     {
       id: "pro-1",
-      title: "Tech Starters",
+      title: "OSDES",
       type: 'Featured project',
-      summary: "Built Tech Starters Conference website",
-      link: "https://tech-con.vercel.app",
-      github: "https://github.com/Yhucee14/tech-con",
-      img: conf
+      summary: "The Oyo State Digital Economy Summit is a launchpad designed to ignite innovation and empower content creators and tech enthusiasts in Oyo State to actively participate in the digital economy. This summit will be a vibrant space to connect, learn, and propel Oyo State forward in the exciting digital world.",
+      link: "https://www.osdes.ng",
+      github: "https://github.com/Yhucee14/osdes",
+      img: osdes
     },
     {
       id: "pro-2",
-      title: "MovieBox ",
-      summary: "Built a movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies using data from the TMDB API.",
-      link: "https://movie-discovery-app-three.vercel.app/",
-      github: "https://github.com/Yhucee14/movie-discovery-app",
-      img: moviebox
-    },
-    {
-      id: "pro-3",
-      title: "Dnd Gallery ",
-      summary: "Built a fully functional and responsive image gallery that showcases a collection of images in a visually appealing way.",
-      link: "https://my-portfolio-84lr.vercel.app/projects",
-      github: "https://github.com/Yhucee14/dnd-gallery",
-      img: dnd
-    },
-    {
-      id: "pro-4",
       title: "Todo Web App ",
       summary: "Built a simple todo app that prevents procrastination and lets you get things done",
       link: "https://todo-app-dun-three-39.vercel.app",
@@ -108,33 +81,15 @@ export const ExpDetails = [
       img: todo
     },
     {
-      id: "pro-5",
+      id: "pro-3",
       title: "My Portfolio ",
       summary: "Built my Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
       link: "https://my-portfolio-yhucee14.vercel.app/",
       github: "https://github.com/Yhucee14/my-portfolio",
-      img: portfolio
+      img: port
     },
     {
-      id: "pro-6",
-      title: "Form Authentication ",
-      summary: "Practiced Firebase and built a login/register form with forgot password feature that sends a reset password message to your Email using Firebase for data storage and authentication.",
-      link: "https://form-auth-test-fskp.vercel.app",
-      github: "https://github.com/Yhucee14/Form-auth-test",
-      img: auth
-    },
-  
-    {
-      id: "pro-7",
-      title: "Article Summarizer",
-      type: 'Featured project',
-      summary: "Built an AI article summarizer that leverages on Open AI's model to provide concise summaries of websites or articles.",
-      link: "https://smart-sum-yhucee14.vercel.app",
-      github: "https://github.com/Yhucee14/SmartSum",
-      img: smartsum
-    },
-    {
-      id: "pro-7",
+      id: "pro-4",
       title: "Weather App",
       summary: "Built a weather forecast application that provides information on the weather conditions of some international cities using Rapid Api.",
       link: "https://lighthearted-biscochitos-7a8002.netlify.app",
