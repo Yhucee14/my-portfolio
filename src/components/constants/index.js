@@ -4,6 +4,9 @@ import todo from '../constants/projects/todo.png'
 import port from '../constants/projects/port.png'
 import osdes from '../constants/projects/osdes.png'
 import pre from '../constants/projects/pre.png'
+import crop from '../constants/projects/crop.png'
+import shop from '../constants/projects/shop.png'
+import agro from '../constants/projects/agro.png'
 
 
 export const ExpDetails = [
@@ -54,17 +57,41 @@ export const ExpDetails = [
   export const FeaturedProjects = [
     {
       id: "pro-1",
-      title: "Preggify",
-      summary: "Collaborated with the team to build Preggify's website for pregnant women and aspiring mothers.",
-      link: "https://preggify.com",
-      github: "https://github.com/Yhucee14",
-      img: pre
+      title: "Cropcrypt",
+      summary: "Collaborated with the team to build Cropcrypt for Xendfinance's hackathon.",
+      link: "https://cropcrypt.vercel.app/",
+      github: "https://github.com/Yhucee14/cropcrypt",
+      img: crop
     },
   ];
 
   export const OtherProjects = [
     {
       id: "pro-1",
+      title: "Preggify",
+      summary: "Collaborated with the team to build Preggify's website for pregnant women and aspiring mothers.",
+      link: "https://preggify.com",
+      github: "https://github.com/Yhucee14",
+      img: pre
+    },
+    {
+      id: "pro-2",
+      title: "Agrolux",
+      summary: "An intuitive platform that enhances precision farming.",
+      link: "https://agrolux.vercel.app/",
+      github: "https://github.com/Yhucee14/agrolux",
+      img: agro
+    },
+    {
+      id: "pro-3",
+      title: "Shodai",
+      summary: "An online shopping platform",
+      link: "https://zuri-shopping-app.vercel.app/",
+      github: "https://github.com/Yhucee14/zuri-shopping-app",
+      img: shop
+    },
+    {
+      id: "pro-4",
       title: "OSDES",
       type: 'Featured project',
       summary: "The Oyo State Digital Economy Summit is a launchpad designed to ignite innovation and empower content creators and tech enthusiasts in Oyo State to actively participate in the digital economy. This summit will be a vibrant space to connect, learn, and propel Oyo State forward in the exciting digital world.",
@@ -73,7 +100,7 @@ export const ExpDetails = [
       img: osdes
     },
     {
-      id: "pro-2",
+      id: "pro-5",
       title: "Todo Web App ",
       summary: "Built a simple todo app that prevents procrastination and lets you get things done",
       link: "https://todo-app-dun-three-39.vercel.app",
@@ -81,7 +108,7 @@ export const ExpDetails = [
       img: todo
     },
     {
-      id: "pro-3",
+      id: "pro-6",
       title: "My Portfolio ",
       summary: "Built my Personal Portfolio Website using Nextjs, Tailwind CSS and Framer Motion",
       link: "https://my-portfolio-yhucee14.vercel.app/",
@@ -89,7 +116,7 @@ export const ExpDetails = [
       img: port
     },
     {
-      id: "pro-4",
+      id: "pro-7",
       title: "Weather App",
       summary: "Built a weather forecast application that provides information on the weather conditions of some international cities using Rapid Api.",
       link: "https://lighthearted-biscochitos-7a8002.netlify.app",
