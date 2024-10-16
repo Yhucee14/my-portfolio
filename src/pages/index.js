@@ -17,8 +17,8 @@ export default function Home() {
       <main className='flex items-center text-gray-300  w-full'>
         <Layout className='border-b-2 border-b-gray-200'>
           <div className='flex xx:flex-col sm:flex-col md:flex-row items-center justify-between w-full'>
-            <div className=' xx:w-full sm:h-[500px] rounded-2xl border-2 border-solid border-gray-200 p-2'>
-              <Image src={pro} alt='img' className='w-[100%] h-full  rounded-2xl' />
+            <div className=' xx:w-full rounded-full border-2 border-solid border-gray-200 p-2'>
+              <Image src={pro} alt='img' className='w-[100%] h-full  rounded-full' />
             </div>
 
             
@@ -38,7 +38,7 @@ export default function Home() {
                 </Link> 
 
                 <Link href='mailto:uchechukwu7814@gmail.com' target={"_blank"}
-                className='ml-4 text-lg px-2 border-2 border-solid bg-gray-200 border-gray-400 hover:bg-blue-600 hover:text-white hover:border-white font-bold capitalize text-black p-1 py-2 rounded-lg  hover:border-2'>
+                className='ml-4 text-lg px-2 border-2 border-solid bg-gray-200 border-gray-400 hover:bg-blue hover:text-white hover:border-white font-bold capitalize text-black p-1 py-2 rounded-lg  hover:border-2'>
                   Contact Me
                 </Link>
               </div>

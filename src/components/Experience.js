@@ -34,7 +34,7 @@ const Experience = () => {
                                     </h3>
                                     <span className='capitalize font-medium text-gray-300
                                      '>
-                                        {exp.time} | {exp.address}
+                                        {exp.time} 
                                     </span>
                                     <p className='font-medium w-full py-1'>
                                         {exp.work}

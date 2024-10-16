@@ -46,7 +46,7 @@ const Navbar = () => {
             <Logo />
 
             <nav className={`${isMobileMenuOpen
-                ? "absolute p-4  top-20 left-24 font-bold w-[230px] rounded-lg h-[170px]  bg-blue-600 shadow-md border-y-[1px] border-[#00000048] flex flex-col "
+                ? "absolute p-4  top-20 right-2 font-bold w-[230px] rounded-lg h-[170px]  bg-blue shadow-md border-y-[1px] border-[#00000048] flex flex-col "
                 : "hidden"
                 } sm:flex flex-row `}>
 
@@ -57,12 +57,7 @@ const Navbar = () => {
 
                
             <nav className='flex items-center justify-center flex-wrap '>
-                {/* <motion.a href='https://twitter.com/Ucee_14' target={'_blank'}
-                    whileHover={{ y: -4 }}
-                    whileTap={{ scale: 0.9 }}
-                    className='w-6 mx-3'>
-                    <TwitterIcon />
-                </motion.a> */}
+           
 
                 <motion.a href='https://github.com/Yhucee14' target={'_blank'} className='w-9 mx-3'
                     whileHover={{ y: -4 }}
@@ -88,9 +83,9 @@ const Navbar = () => {
                 className="px-4 sm:hidden focus:outline-none"
             >
                 {isMobileMenuOpen ? (
-                    <FaTimes className="text-black text-2xl " />
+                    <FaTimes className="text-white text-2xl " />
                 ) : (
-                    <FaBars className="text-black text-2xl " />
+                    <FaBars className="text-white text-2xl " />
                 )}
             </button>
 

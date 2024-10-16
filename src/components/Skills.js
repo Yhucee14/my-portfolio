@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import AnimatedText from './AnimatedText'
+import SkillsCarousel from './SkillsCarousel'
 
 const Skill = ({name, x, y}) => {
 
@@ -23,7 +24,7 @@ const Skills = () => {
   return (
     <>
    <AnimatedText text='Skills' className='font-bold text-3xl mt-20 w-full sm:text-left xx:text-center' />
-    <div className='w-full sm:h-screen xx:h-[450px] relative flex items-center justify-center rounded-full bg-circularLight px-10'>
+    {/* <div className='w-full sm:h-screen xx:h-[450px] relative flex items-center justify-center rounded-full bg-circularLight px-10'>
         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-black text-white p-6 shadow-black cursor-pointer' whileHover={{scale:1.2 }}>
             Web
         </motion.div>
@@ -38,7 +39,9 @@ const Skills = () => {
         <Skill name='ReactJS' x='-18vw' y='-26vw'/>
         <Skill name='Wordpress' x='0vw' y='28vw'/>
 
-    </div>
+    </div> */}
+
+    <SkillsCarousel />
     </>
   )
 }

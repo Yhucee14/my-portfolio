@@ -19,6 +19,7 @@ module.exports = {
         rightBlue: '#002147',
         leftOrange: '#ffcc99',
         rightOrange: '#ff9966',
+        blue: 'rgb(0 21 28)'
         
       },
       screens: {
