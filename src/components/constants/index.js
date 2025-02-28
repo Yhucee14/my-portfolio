@@ -4,7 +4,7 @@ import port from "../constants/projects/port.png";
 import osdes from "../constants/projects/osdes.png";
 import pre from "../constants/projects/pre.png";
 import crop from "../constants/projects/crop.png";
-import shop from "../constants/projects/shop.png";
+import fund from "../constants/projects/fund.png";
 import react from "../constants/projects/react.png";
 import next from "../constants/projects/next.png";
 import git from "../constants/projects/git.png";
@@ -41,7 +41,7 @@ export const ExpDetails = [
     position: "Software Developer",
     companyLink: "www.google.com",
     company: "Buildhubb",
-    time: "May 2024 - September 2024",
+    time: "May 2024 - january 2024",
     work: "Frontend developer",
   },
 ];
@@ -94,7 +94,7 @@ export const FeaturedProjects = [
     id: "pro-1",
     title: "Cropcrypt",
     summary:
-      "Collaborated with the team to build Cropcrypt, a platform that digitizes and tokenizes agricultural assets, to provide farmers with digital tools and financing, that ultimately improves food quality, security and yields better income for farmers..",
+      "Building Cropcrypt, a platform that digitizes and tokenizes agricultural assets, to provide farmers with digital tools and financing, that ultimately improves food quality, security and yields better income for farmers..",
     link: "https://cropcrypt.vercel.app/",
     github: "https://github.com/Yhucee14/cropcrypt",
     img: crop,
@@ -113,11 +113,12 @@ export const OtherProjects = [
   },
   {
     id: "pro-2",
-    title: "Shodai",
-    summary: "An online shopping platform",
-    link: "https://zuri-shopping-app.vercel.app/",
-    github: "https://github.com/Yhucee14/zuri-shopping-app",
-    img: shop,
+    title: "FundMe Dapp",
+    summary:
+      "Built my first decentralized application on Ethereum with solidity that allows you to deposit/withdraw test Eth and also view balance, i connected it to the frontend using Ethers.js",
+    link: "https://fund-me-dapp-frontend.vercel.app/",
+    github: "https://github.com/Yhucee14/FundMe_Dapp_Frontend",
+    img: fund,
   },
   {
     id: "pro-3",
